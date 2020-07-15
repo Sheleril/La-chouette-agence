@@ -1367,9 +1367,13 @@ img {
 }
 
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
-    display: block;
     max-width: 100%;
     height: auto
+}
+@media screen and (min-width: 768px){
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+        display: block;
+    }
 }
 
 .img-rounded {
@@ -6745,6 +6749,10 @@ button.close {
     }
     td.visible-xs, th.visible-xs {
         display: table-cell !important
+    }
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+        max-width: 100%;
+        height: auto
     }
 }
 

@@ -917,4 +917,11 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+    .tc-white{
+        font-size: 1.4em;
+    }
+    .social{
+        display: flex;
+        justify-content: space-between;
+    }
 }
