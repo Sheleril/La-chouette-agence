@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="Default">
+<html lang="fr">
 <head>
 
     <meta charset="utf-8">
@@ -78,27 +78,28 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<label>
-							Nom
+						<label for="name">
+							Nom <br/>
 						</label>
 						<input id="name" class="form-control" required />
 					</div>
 					<div class="form-group">
-						<label>
-							Adresse email
+						<label for="email">
+							Adresse email <br/>
 						</label>
 						<input id="email" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
-						<label>
-							Comment nous avez-vous connu ?
+						<label for="form-control">
+							Comment nous avez-vous connu ? <br/>
 						</label>
 						<input class="form-control" type="email" required id="input_504" />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="message">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label>
+						<textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
@@ -121,40 +122,41 @@
 
 
 <!-- Footer - bloc-8 -->
-<div class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
+<footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
 				<p class="text-center white">
-					La chouette agence - Agence web basée à Lyon.<br>
+					La chouette agence - Agence web basée à Lyon.
 				</p>
-				<div class="row row-no-gutters social">
+				<nav class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="#"><span class="fa fa-twitter icon-md"></span></a>
+							<a class="social" href="http://twitter.com" aria-label="Twitter"><span class="fa fa-twitter icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="#"><span class="fa fa-facebook icon-md"></span></a>
+							<a class="social" href="http://facebook.com" aria-label="Facebook"><span class="fa fa-facebook icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="#"><span class="fa fa-dribbble icon-md"></span></a>
+							<a class="social" href="http://dribbble.com" aria-label="Dribbble"><span class="fa fa-dribbble icon-md"></span></a>
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social" href="#"><span class="fa fa-instagram icon-md"></span></a>
+							<a class="social" href="http://instagram.com" aria-label="Instagram"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
-				</div>
+				</nav>
 			</div>
 		</div>
 	</div>
-</div>
+</footer>
 <!-- Footer - bloc-8 END -->
+
 
 </div>
 <!-- Principal conteneur END -->
