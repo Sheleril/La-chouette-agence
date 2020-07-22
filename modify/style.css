@@ -350,7 +350,8 @@ nav .caret {
 
 .mg-md {
     margin-top: 10px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    color: black;
 }
 
 .mg-lg {
@@ -656,7 +657,8 @@ h4 {
 }
 
 .bgc-white {
-    background-color: #FFF
+    background-color: #FFF;
+    color: black;
 }
 
 .bgc-dark-slate-blue {
@@ -668,7 +670,7 @@ h4 {
 }
 
 .tc-white {
-    color: #FCE1D4;
+    color: black;
     font-size: 20px
 }
 
@@ -945,11 +947,13 @@ p .text-center.galerie{
 }
 
 .second-p {
-    font-size: x-large
+    font-size: x-large;
+    color: black;
 }
 
 .galerie {
-    font-size: unset
+    font-size: unset;
+    color: black;
 }
 
 blockquote footer {
