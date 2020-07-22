@@ -875,46 +875,46 @@ h4 {
         margin-top: 5px
     }
     .voffset-md {
-        margin-top: 20px
+        margin-top: 20px;
     }
     .voffset-lg {
-        margin-top: 30px
+        margin-top: 30px;
     }
     form {
-        padding: 5px
+        padding: 5px;
     }
     .close-lightbox {
-        display: inline-block
+        display: inline-block;
     }
     .blocsapp-device-iphone5 {
         background-size: 216px 425px;
         padding-top: 60px;
         width: 216px;
-        height: 425px
+        height: 425px;
     }
     .blocsapp-device-iphone5 img {
         width: 180px;
-        height: 320px
+        height: 320px;
     }
 }
 
 @media (max-width:400px) {
     .bloc {
         padding-left: 0;
-        padding-right: 0
+        padding-right: 0;
     }
 }
 
 @media (max-width:767px) {
     .bloc-mob-center-text {
-        text-align: center
+        text-align: center;
     }
     .tc-white {
-        font-size: 1.2em
+        font-size: 1.2em;
     }
     .social {
         display: flex;
-        justify-content: space-between
+        justify-content: space-between;
     }
 }
 
@@ -927,8 +927,16 @@ h4 {
 }
 
 .first-p {
-    font-size: 20px
+    font-size: 20px;
+    color: black;
 }
+h2 .mg-md.text-center{
+    color: black;
+}
+p .text-center.galerie{
+    color: black;
+}
+
 
 @media screen and (max-width:767px) {
     .first-p {
